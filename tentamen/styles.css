@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 500px;
+    background-color: aliceblue;
+    
+}
+.div1{
+    background-color: black;
+}
+.div2{
+    background-color: white;
+}
+
+.fig1 li{
+    width:500;
+    background: black;
+    display: inline-block;
+    padding: 10px;
+    color:white;
+}
+.fig2 li{
+    width:800;
+    background: white;
+    display: block;
+    padding:20px;
+    color:black;
+   
+}
+li{
+    text-decoration: underline;;
+}
+td,th,tr{
+    border:2px solid black;
+}
+div{
+    width: 800px;
+}
+#div11{
+    width:200;
+    background-color:greenyellow;
+}
+#div22{
+    width:300;
+    background-color:lightcoral;
+}
+footer{
+    width: 100%;
+    display: inline;
+}
+/* @media(min-width:400px) and(max-width:1000px){
+ul .nav{
+    color: #000;
+}
+} */
